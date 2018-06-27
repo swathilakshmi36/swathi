@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<title>swathiResume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("image.jpg");
+    min-height: 90%;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">SKILLS</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">RESUME</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px"><br>SWATHILAKSHMI</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>SWATHILAKSHMI</b></span>
+  </div>
+</header>
+
+<!-- Menu Container -->
+
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">SKILLS</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Projects');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Projects</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Achievements');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Achievements</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Extra curricular');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Extra curricular</div>
+      </a>
+    </div>
+
+    <div id="Projects" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Prediction of Diabetes</b> <span class="w3-right w3-tag w3-dark-grey w3-round">April 2017</span></h1>
+      <p class="w3-text-grey">Predicting Diabetes in advance</p>
+      <hr>
+   
+      <h1><b>Hospital Management Syatem</b> <span class="w3-right w3-tag w3-dark-grey w3-round">April 2017</span></h1>
+      <p class="w3-text-grey">To fix appointments through online</p>
+      <hr>
+      
+      <h1><b>Job Fetching Application</b> <span class="w3-right w3-tag w3-dark-grey w3-round">April 2018</span></h1>
+      <p class="w3-text-grey">This is designed with applicant's details and detail of company</p>
+      <hr>
+      </div> 
+    <div id="Achievements" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Event</b><span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Practicipated in an event of ethics </p>
+      <hr>
+   
+      <h1><b>Workshop</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">Attended a 1 day workshop in Big Data Analytics in Kumaraguru college of Technology</p>
+      <hr>
+
+      
+      
+      <h1><b>Workshop</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-blue">Attended a 2 day workshop in sri ramakrishna college of engineering</p>
+      <hr>
+    </div>
+
+
+    <div id="Extra curricular" class="w3-container menu w3-padding-32 w3-white">
+      
+      <p class="w3-text-black"><li>Winners in 8th Centies Championship-2017 held at "UNIFIED INSTITUTE OF TECHNOLOGY"</li></p>
+      <hr>
+      <p class="w3-text-black"><li>Winners in the KPR TROPHY held at KPR Institute of Engineering</li></p>
+      <hr>
+      <p class="w3-text-black"><li>Winners in SNR TROPHY held at SNR Institute of Technology</li></p>
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-blue w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+
+    <img src="swathipic.jpg" style="width:20""height=20" class="w3-margin-top w3-margin-bottom">
+    <h1><p>Name:S.Swathilakshmi</p></h1>
+    <h1><p>Father's Name:M.Shanmughasundaram</p></h1>
+    <h1><p>Areas Of Intrest: <li>Web Development,Database Management System</li> </p></h1>
+    <h1><p>Technical Skills:<li> HTML,CSS,Javascript</li></p></h1>
+    <h1><p>Strength:<li> Dedication,Team work skills</li></p></h1>
+    <h1><p>Date Of birth:26-07-1998</p></h1>
+    <h1><p>Languages Known:English,Tamil</p></h1>
+    <h1><p>Address:51,kamaraj nagar,2nd street,p.n.road,tirupur</p></h1>
+  </div>
+</div>
+
+<!-- Contact (with google maps) -->
+<div id="googleMap" class="w3-grayscale-max" style="width:100%;height:400px;"></div>
+
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    
+    
+    <div ng-app="res" ng-controller="resumes">
+      <p><input class="w3-input w3-padding-16 w3-border" ng-model="Name" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border"ng-model="Phonenumber" type="number" placeholder="Phonenumber" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border"ng-model="Mail"  type="text" placeholder="Mail" required name="Mail"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+  </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+  var res1 = angular.module("res",[]);
+  
+  res1.controller('resumes', function($scope, $http){
+      $scope.submit=function (){
+          alert("Message sent")
+          $http({
+              'url': '/cheps',
+              'method': 'POST',
+              'data': {
+                  name: $scope.name,
+                  Phonenumber: $scope.phonenumber,
+                  Email: $scope.Email
+              }
+              
+          }).then(function(err,data){
+              console.log(data)
+          })
+      }
+  });
+  
+  </script>
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
